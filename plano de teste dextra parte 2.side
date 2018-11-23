@@ -4,304 +4,8 @@
   "name": "dextra",
   "url": "https://www.americanas.com.br",
   "tests": [{
-    "id": "e9c7d7d5-6260-4df0-afb3-3e0f6bc2b3e4",
-    "name": "cadastro_usuario",
-    "commands": [{
-      "id": "24df68a1-919e-4828-9677-82af4af46d98",
-      "comment": "",
-      "command": "open",
-      "target": "/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "aa59a5d5-839d-48e7-bbea-c389ae5107ac",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1382x744",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "6fbea2ee-1a05-42f4-8e28-b37c2f31ae08",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=img[alt=\"Black Friday\"]",
-      "targets": [
-        ["css=img[alt=\"Black Friday\"]", "css"],
-        ["css=.hdr-bnr-image > img", "css:finder"],
-        ["xpath=//img[@alt='Black Friday']", "xpath:img"],
-        ["xpath=//div[@id='h_topbanner']/ul/li/a/picture/img", "xpath:idRelative"],
-        ["xpath=//img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "a4613bc9-6a05-45d9-8ec4-432cffce4f64",
-      "comment": "",
-      "command": "click",
-      "target": "css=span.usr-act-text",
-      "targets": [
-        ["css=span.usr-act-text", "css"],
-        ["css=.usr-act-text", "css:finder"],
-        ["xpath=//a[@id='h_usr-link']/span[2]", "xpath:idRelative"],
-        ["xpath=//a/span[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "3fdf5d57-5be9-48c9-853f-1a1f3b7bd4b5",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=span.usr-act-text",
-      "targets": [
-        ["css=span.usr-act-text", "css"],
-        ["css=.usr-act-text", "css:finder"],
-        ["xpath=//a[@id='h_usr-link']/span[2]", "xpath:idRelative"],
-        ["xpath=//a/span[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "4c64f4fe-fc16-4f18-affa-eedbefa80ddb",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=span.usr-act-text",
-      "targets": [
-        ["css=span.usr-act-text", "css"],
-        ["css=.usr-act-text", "css:finder"],
-        ["xpath=//a[@id='h_usr-link']/span[2]", "xpath:idRelative"],
-        ["xpath=//a/span[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "10a30e80-3ede-406d-9d21-0a305dbd3bc7",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Cliente novo? Cadastrar",
-      "targets": [
-        ["linkText=Cliente novo? Cadastrar", "linkText"],
-        ["css=a.usr-signup", "css"],
-        ["css=.usr-signup", "css:finder"],
-        ["xpath=//a[contains(text(),'Cliente novo? Cadastrar')]", "xpath:link"],
-        ["xpath=//div[@id='h_user']/span[2]/div/a[2]", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://cliente.americanas.com.br/simple-login/cadastro/pf?next=https%3A%2F%2Fwww.americanas.com.br%2F')]", "xpath:href"],
-        ["xpath=//a[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c8fb5a4a-55ed-4512-9fff-30bc3cbf3f56",
-      "comment": "",
-      "command": "click",
-      "target": "id=email-input",
-      "targets": [
-        ["id=email-input", "id"],
-        ["name=email", "name"],
-        ["css=#email-input", "css"],
-        ["css=#email-input", "css:finder"],
-        ["xpath=//input[@id='email-input']", "xpath:attributes"],
-        ["xpath=//div[@id='email']/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "0443508b-77f6-4b9e-a21d-c3e2ca92271f",
-      "comment": "",
-      "command": "type",
-      "target": "id=email-input",
-      "targets": [
-        ["id=email-input", "id"],
-        ["name=email", "name"],
-        ["css=#email-input", "css"],
-        ["css=#email-input", "css:finder"],
-        ["xpath=//input[@id='email-input']", "xpath:attributes"],
-        ["xpath=//div[@id='email']/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": "tiago.oliver1@email.com"
-    }, {
-      "id": "104b4181-b31a-44ac-9ab1-cbe7e34bf5d2",
-      "comment": "",
-      "command": "click",
-      "target": "id=password-input",
-      "targets": [
-        ["id=password-input", "id"],
-        ["name=password", "name"],
-        ["css=#password-input", "css"],
-        ["css=#password-input", "css:finder"],
-        ["xpath=//input[@id='password-input']", "xpath:attributes"],
-        ["xpath=//div[@id='password']/input", "xpath:idRelative"],
-        ["xpath=//div[2]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "1ec51879-c89e-473e-9ee6-b19b1a724bdb",
-      "comment": "",
-      "command": "type",
-      "target": "id=password-input",
-      "targets": [
-        ["id=password-input", "id"],
-        ["name=password", "name"],
-        ["css=#password-input", "css"],
-        ["css=#password-input", "css:finder"],
-        ["xpath=//input[@id='password-input']", "xpath:attributes"],
-        ["xpath=//div[@id='password']/input", "xpath:idRelative"],
-        ["xpath=//div[2]/input", "xpath:position"]
-      ],
-      "value": "1318362a"
-    }, {
-      "id": "64b1790f-d11b-47d8-9c6e-519202c2f388",
-      "comment": "",
-      "command": "click",
-      "target": "id=cpf-input",
-      "targets": [
-        ["id=cpf-input", "id"],
-        ["name=cpf", "name"],
-        ["css=#cpf-input", "css"],
-        ["css=#cpf-input", "css:finder"],
-        ["xpath=//input[@id='cpf-input']", "xpath:attributes"],
-        ["xpath=//div[@id='cpf']/input", "xpath:idRelative"],
-        ["xpath=//div[3]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "75be96d0-cc77-4fda-835b-59e509b25e56",
-      "comment": "",
-      "command": "type",
-      "target": "id=cpf-input",
-      "targets": [
-        ["id=cpf-input", "id"],
-        ["name=cpf", "name"],
-        ["css=#cpf-input", "css"],
-        ["css=#cpf-input", "css:finder"],
-        ["xpath=//input[@id='cpf-input']", "xpath:attributes"],
-        ["xpath=//div[@id='cpf']/input", "xpath:idRelative"],
-        ["xpath=//div[3]/input", "xpath:position"]
-      ],
-      "value": "601.184.788-93"
-    }, {
-      "id": "96b2de1b-6906-4cce-8075-a574c8facf17",
-      "comment": "",
-      "command": "click",
-      "target": "id=name-input",
-      "targets": [
-        ["id=name-input", "id"],
-        ["name=name", "name"],
-        ["css=#name-input", "css"],
-        ["css=#name-input", "css:finder"],
-        ["xpath=//input[@id='name-input']", "xpath:attributes"],
-        ["xpath=//div[@id='name']/input", "xpath:idRelative"],
-        ["xpath=//div[4]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "d58ab211-bf4a-44be-8827-3fa911f7cad9",
-      "comment": "",
-      "command": "type",
-      "target": "id=name-input",
-      "targets": [
-        ["id=name-input", "id"],
-        ["name=name", "name"],
-        ["css=#name-input", "css"],
-        ["css=#name-input", "css:finder"],
-        ["xpath=//input[@id='name-input']", "xpath:attributes"],
-        ["xpath=//div[@id='name']/input", "xpath:idRelative"],
-        ["xpath=//div[4]/input", "xpath:position"]
-      ],
-      "value": "Tiago Oliver"
-    }, {
-      "id": "cdb9d603-be33-4e08-bfa1-39d673253df1",
-      "comment": "",
-      "command": "click",
-      "target": "id=birthday-input",
-      "targets": [
-        ["id=birthday-input", "id"],
-        ["name=birthday", "name"],
-        ["css=#birthday-input", "css"],
-        ["css=#birthday-input", "css:finder"],
-        ["xpath=//input[@id='birthday-input']", "xpath:attributes"],
-        ["xpath=//div[@id='birthday']/input", "xpath:idRelative"],
-        ["xpath=//div[5]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "e04bceb9-f057-4a82-b1fd-8806d2f6b31c",
-      "comment": "",
-      "command": "type",
-      "target": "id=birthday-input",
-      "targets": [
-        ["id=birthday-input", "id"],
-        ["name=birthday", "name"],
-        ["css=#birthday-input", "css"],
-        ["css=#birthday-input", "css:finder"],
-        ["xpath=//input[@id='birthday-input']", "xpath:attributes"],
-        ["xpath=//div[@id='birthday']/input", "xpath:idRelative"],
-        ["xpath=//div[5]/input", "xpath:position"]
-      ],
-      "value": "02/10/1996"
-    }, {
-      "id": "05b8e114-63ce-4903-b9e1-2b1c232c36e2",
-      "comment": "",
-      "command": "click",
-      "target": "css=div.radio.inputGroup-radio > label",
-      "targets": [
-        ["css=div.radio.inputGroup-radio > label", "css"],
-        ["css=.radio:nth-child(2) > label", "css:finder"],
-        ["xpath=//div[@id='gender']/div/label", "xpath:idRelative"],
-        ["xpath=//div[6]/div/label", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c02b3091-4cdf-4d5d-81cd-93ce90d70efd",
-      "comment": "",
-      "command": "click",
-      "target": "id=phone-input",
-      "targets": [
-        ["id=phone-input", "id"],
-        ["name=phone", "name"],
-        ["css=#phone-input", "css"],
-        ["css=#phone-input", "css:finder"],
-        ["xpath=//input[@id='phone-input']", "xpath:attributes"],
-        ["xpath=//div[@id='phone']/input", "xpath:idRelative"],
-        ["xpath=//div[7]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "22d8994f-a9e8-47ef-a363-afccf44364e3",
-      "comment": "",
-      "command": "type",
-      "target": "id=phone-input",
-      "targets": [
-        ["id=phone-input", "id"],
-        ["name=phone", "name"],
-        ["css=#phone-input", "css"],
-        ["css=#phone-input", "css:finder"],
-        ["xpath=//input[@id='phone-input']", "xpath:attributes"],
-        ["xpath=//div[@id='phone']/input", "xpath:idRelative"],
-        ["xpath=//div[7]/input", "xpath:position"]
-      ],
-      "value": "(19) 39208-876"
-    }, {
-      "id": "0075d9cf-ef19-454d-9e08-4a3de0d075aa",
-      "comment": "",
-      "command": "click",
-      "target": "css=.btn",
-      "targets": [
-        ["css=.btn", "css:finder"],
-        ["xpath=//button[@type='submit']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[2]/form/button", "xpath:idRelative"],
-        ["xpath=//form/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "1c64a0e3-abfa-4da8-a3de-eda525a37f3d",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=svg.crt-icon",
-      "targets": [
-        ["css=svg.crt-icon", "css"],
-        ["css=.crt-icon", "css:finder"]
-      ],
-      "value": ""
-    }]
-  }, {
     "id": "2646ec36-2452-4317-b39e-80e8c6b0d9a6",
-    "name": "cadastro_usuario (1)",
+    "name": "cadastro_usuario",
     "commands": [{
       "id": "4f17f664-86f0-4243-b14b-b381527002cc",
       "comment": "",
@@ -409,7 +113,7 @@
         ["xpath=//div[@id='email']/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "tiago.oliver2@email.com"
+      "value": "tiago.oliver4@email.com"
     }, {
       "id": "461a712f-3f4e-4135-89f6-9470bd340695",
       "comment": "",
@@ -596,24 +300,24 @@
       "value": ""
     }]
   }, {
-    "id": "37534dad-8262-4d73-84f6-3b8ea6d14392",
+    "id": "5950c840-11cc-4ad0-b3eb-eb25b2498afe",
     "name": "compra_motog6",
     "commands": [{
-      "id": "38ff9c03-b48a-4c5f-b100-3b36a38a5f84",
+      "id": "d382abc1-b925-47e9-be3b-2f0cb4237f3f",
       "comment": "",
       "command": "open",
       "target": "/",
       "targets": [],
       "value": ""
     }, {
-      "id": "6c4d887c-7a82-4580-b378-02e7a66390a5",
+      "id": "2a6afe24-ced1-4654-b5b9-ba29bd88f6e7",
       "comment": "",
       "command": "setWindowSize",
       "target": "1382x744",
       "targets": [],
       "value": ""
     }, {
-      "id": "ac9d0921-a442-4516-898d-1a8f7b755fff",
+      "id": "9145e10a-61a0-40a5-b213-ef914ed0c58f",
       "comment": "",
       "command": "click",
       "target": "id=h_search-input",
@@ -628,7 +332,7 @@
       ],
       "value": ""
     }, {
-      "id": "c1fcff7e-bb18-45bf-8b71-c72e188701ca",
+      "id": "595563d1-126f-448b-8974-9d52082ade06",
       "comment": "",
       "command": "type",
       "target": "id=h_search-input",
@@ -643,7 +347,7 @@
       ],
       "value": "moto g6"
     }, {
-      "id": "bf93649c-9c19-408f-ac98-5f1489791f1b",
+      "id": "8cf022b3-d50b-4ece-aaab-00e0025d8e85",
       "comment": "",
       "command": "click",
       "target": "css=.sz-2 .ac-term",
@@ -654,14 +358,7 @@
       ],
       "value": ""
     }, {
-      "id": "7c4e55ae-b5ea-4961-9311-bbc938f575cc",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,322)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "92558b5c-6cf0-49ed-8238-1b4934e0855c",
+      "id": "e945f8da-4f40-429c-b266-4c0aa9656dc5",
       "comment": "",
       "command": "click",
       "target": "css=.-hover .card-product-picture",
@@ -673,44 +370,56 @@
       ],
       "value": ""
     }, {
-      "id": "f411f179-edf5-48aa-873b-077829bfddd6",
+      "id": "b178785f-cb53-4a85-a13e-8b8c53c3f066",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=span.crt-quantity",
+      "target": "css=.ImageUI-alry8x-0",
       "targets": [
-        ["css=span.crt-quantity", "css"],
-        ["css=.crt-quantity", "css:finder"],
-        ["xpath=//div[@id='h_minicart']/a/span", "xpath:idRelative"],
-        ["xpath=//div[4]/a/span", "xpath:position"]
+        ["css=.ImageUI-alry8x-0", "css:finder"],
+        ["xpath=//img[contains(@src,'https://images-americanas.b2w.io/spacey/2018/11/21/C_PRONTOCOMPREI__SITE_banner-pag-produto_desk.png')]", "xpath:img"],
+        ["xpath=//div[@id='content']/div/main/div/div/div/div/div/div/a/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div/picture/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "bdb241c9-f82b-498a-ab29-e4a5b70ad03b",
+      "id": "b94f3ae4-08c9-471a-819c-dde500434ebd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ImageUI-alry8x-0",
+      "targets": [
+        ["css=.ImageUI-alry8x-0", "css:finder"],
+        ["xpath=//img[contains(@src,'https://images-americanas.b2w.io/spacey/2018/11/21/C_PRONTOCOMPREI__SITE_banner-pag-produto_desk.png')]", "xpath:img"],
+        ["xpath=//div[@id='content']/div/main/div/div/div/div/div/div/a/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "953cfd42-98bb-4908-91ee-83739d52642b",
       "comment": "",
       "command": "runScript",
-      "target": "window.scrollTo(0,71)",
+      "target": "window.scrollTo(0,502)",
       "targets": [],
       "value": ""
     }, {
-      "id": "0d18bed4-cbc7-46f4-96b7-b64faa475ed2",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,407)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "3ac39b26-e7ed-4183-b7ed-8cccfa003f34",
+      "id": "843ac623-06b2-4032-914e-b9424a0752f0",
       "comment": "",
       "command": "click",
-      "target": "css=.kNpGZQ",
+      "target": "css=.iDUVSx",
       "targets": [
-        ["css=.kNpGZQ", "css:finder"],
-        ["xpath=//a[@id='btn-buy']/div", "xpath:idRelative"],
-        ["xpath=//div/div/div/div[2]/div/div/div[2]/a/div", "xpath:position"]
+        ["css=.iDUVSx", "css:finder"],
+        ["xpath=//a[@id='btn-buy']/div/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div/div[2]/a/div/span", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "f3a10040-a9a2-4849-b52c-40c224434cb7",
+      "id": "97717d36-5675-4384-8b75-02ab15c61308",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,117)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28a9aa66-4fb7-4c99-b905-e4349d1164db",
       "comment": "",
       "command": "click",
       "target": "id=btn-continue",
@@ -724,7 +433,7 @@
       ],
       "value": ""
     }, {
-      "id": "72793edc-23f5-4141-adb6-fed139c2d37b",
+      "id": "0cabcb08-7e84-402f-89bb-1752618ac867",
       "comment": "",
       "command": "click",
       "target": "css=select.form-control.select__quantity",
@@ -736,14 +445,14 @@
       ],
       "value": ""
     }, {
-      "id": "342d0bf9-e669-44f2-9def-6b5592085d9a",
+      "id": "88ca2663-0d4d-45f5-b0fd-13d0fd545c39",
       "comment": "",
       "command": "select",
       "target": "css=select.form-control.select__quantity",
       "targets": [],
-      "value": "label=2"
+      "value": "label=1"
     }, {
-      "id": "db432295-4817-4c7b-89a0-1ae3cbc05511",
+      "id": "4817ffd1-f1e1-40c6-8d3c-b0f7dea81f74",
       "comment": "",
       "command": "click",
       "target": "css=div.basket-summary",
@@ -755,7 +464,43 @@
       ],
       "value": ""
     }, {
-      "id": "8a76d987-8c68-4d08-b3b7-61cae5d37867",
+      "id": "4935e37f-adda-41c7-a7db-e3a8ba748fbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.basket-summary",
+      "targets": [
+        ["css=div.basket-summary", "css"],
+        ["css=.basket-summary", "css:finder"],
+        ["xpath=//div[@id='app']/section/section/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4925b80-8a9b-4a28-8fcf-84cb209eeb31",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.basket-summary",
+      "targets": [
+        ["css=div.basket-summary", "css"],
+        ["css=.basket-summary", "css:finder"],
+        ["xpath=//div[@id='app']/section/section/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6937e103-b7b6-4504-8caa-81b79f6958b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.basket-summary",
+      "targets": [
+        ["css=div.basket-summary", "css"],
+        ["css=.basket-summary", "css:finder"],
+        ["xpath=//div[@id='app']/section/section/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "953bd753-b0e4-4476-83a5-5b5468a68803",
       "comment": "",
       "command": "click",
       "target": "id=buy-button",
